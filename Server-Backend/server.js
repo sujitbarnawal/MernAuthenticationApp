@@ -16,7 +16,8 @@ app.use(express.json()); // It is a middleware used for parsing incoming request
 app.use(cookieParser()); //The cookie-parser middleware simplifies the process of parsing and
 //  managing cookies in ExpressJS applications
 
-const allowedOrigins=[process.env.FRONTEND_URL]
+// const allowedOrigins=[process.env.FRONTEND_URL]
+const allowedOrigins=['https://mernauthenticationapp-frontend.onrender.com']
 app.use(cors({origin: allowedOrigins, credentials: true })); //enables your server to handle cross-origin requests
 //  allowing cookies, authorization headers, and other credentials to be included.
 
