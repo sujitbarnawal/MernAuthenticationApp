@@ -1,0 +1,4 @@
+Client-Frontend/node_modules
+Server-Backend/node_modules
+Client-Frontend/.env
+Server-Backend/.env
